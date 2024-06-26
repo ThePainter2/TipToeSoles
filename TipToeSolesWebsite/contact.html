@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="author" content="Tip Toe Soles">
+        <meta name="keywords" content="html,web,css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- This adjusts the size, a must for phones -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logoLink"> <img src="Assets/TipToeSoles_Logo_colour.png" class="logo" alt="Tip Toe Soles logo"> </a>
+            <div class="title">
+                <h1>TipToes Soles</h1>
+            </div>
+        </header>
+        <div class="mainContent">
+
+            <nav class="nav">
+                <!-- search form -->
+                <br>
+                <form class="search-form" id="search" action="/search" method="get">
+                    <label for="search-input">Search Query: </label>
+                    <input id="search-input" type="search" placeholder="search for a product">
+                </form>
+                <!-- navigation links-->
+                <br>
+                <a class="link" href="index.html">Home</a> <br>
+                <a class="link" href="about.html">About Us</a> <br>
+                <a class="linkCurrent" href="contact.html">Contact Us</a> <br>
+                <a class="link" href="products.html">Products</a> <br>
+                <a class="link" href="feedback.html">Feedback</a> <br>
+                <a class="link" href="login.html">Login</a> <br>
+                <a class="link" href="services.html">Services</a> <br>
+                <a class="link" href="wishlist.html">Wishlist</a> <br>
+            </nav>
+
+            <div class="contact-content">
+
+                <div class="contact-content">
+                    <form action="https://submitmyform.com" method="post" class="myform">
+    
+                        <div class="formgroup">
+                            <label for="name"> Name: </label>
+                            <input type="text" name="name" id="name" placeholder="John Smith">
+                        </div>
+            
+                        <div class="formgroup">
+                            <label for="email"> Email: </label>
+                            <input type="text" name="email" id="email" placeholder="something@email.com">
+                        </div>
+            
+                        <div class="formgroup">
+                            <label for="msg"> Message: </label>
+                            <textarea title="message" placeholder="Put what you want to ask here" name="msg" id="msg" cols="30" rows="10"></textarea>
+                        </div>
+            
+                        <input type="submit" name="submit" id="submit" value="Submit">
+            
+                    </form>
+                </div>
+
+                 
+                <iframe class="contact-content" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106058.50759445094!2d151.0925378433594!3d-33.82964159999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ac1c2a6b8505%3A0x3843b4fd8e5fd5e7!2sTipToe%20Soles!5e0!3m2!1sen!2sau!4v1718856224100!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                
+            
+                
+
+            </div>
+
+        </div>
+        
+        <footer class="mainFooter">
+
+            <div class="footerPolicies">
+                <a class="link" href="https://www.google.com.au/search?q=return+policies&sca_esv=7544b28a7dd14374&sxsrf=ADLYWIJEUaxDybQLOYqzqs2TYsBiwDmQPg%3A1719280106224&ei=6iF6ZvalDdKjseMP_M-tKA&ved=0ahUKEwj2woDA0fWGAxXSUWwGHfxnCwUQ4dUDCBA&uact=5&oq=return+policies&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3JldHVybiBwb2xpY2llczIEEAAYRzIEEAAYRzIEEAAYRzIEEAAYRzIEEAAYRzIEEAAYRzIEEAAYRzIEEAAYR0iJEVD3C1j3C3ABeAKQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgKgAhXCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAOIDBRIBMSBAiAYBkAYIkgcBMqAHAA&sclient=gws-wiz-serp">Return Policies</a>
+                <a class="link" href="https://www.google.com.au/search?q=exchange+policies&sca_esv=7544b28a7dd14374&sxsrf=ADLYWIJr2cbMFc2Qxcdt-I-nWFDG1Bjj1g%3A1719280111261&ei=7yF6ZsHPD9_3seMPouac2AE&ved=0ahUKEwiBg7TC0fWGAxXfe2wGHSIzBxsQ4dUDCBA&uact=5&oq=exchange+policies&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWV4Y2hhbmdlIHBvbGljaWVzMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Iiw5QAFj2C3AAeAGQAQCYAZICoAGEDKoBBTAuNy4xuAEDyAEA-AEBmAIFoAK0CJgDAJIHBTAuMi4zoAf9NA&sclient=gws-wiz-serp">Exchange Policies</a>
+                <a class="link" href="https://www.google.com.au/search?q=delivery+policies&sca_esv=7544b28a7dd14374&sxsrf=ADLYWILfipKR5bBblGjBkQXxQ-RhMzp1PQ%3A1719280161306&ei=ISJ6Zt61EoGXseMPlpqhwA8&ved=0ahUKEwieyqLa0fWGAxWBS2wGHRZNCPgQ4dUDCBA&uact=5&oq=delivery+policies&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWRlbGl2ZXJ5IHBvbGljaWVzMgYQABgHGB4yBhAAGAcYHjIIEAAYBxgeGA8yCBAAGAcYHhgPMgUQABiABDIFEAAYgAQyBBAAGB4yBhAAGAUYHjIGEAAYBRgeMgYQABgFGB5IwxRQAFi8EHAAeAGQAQCYAcMBoAGYC6oBAzAuOLgBA8gBAPgBAZgCCKACjAzCAgcQABiABBgNwgIIEAAYBRgHGB7CAggQABgFGA0YHpgDAJIHBTAuNi4yoAfWNQ&sclient=gws-wiz-serp">Delivery Policies</a>
+            </div>
+
+            <div class="footerMediaLinks">
+                <a href="https://facebook.com">
+                    <img class="mediaIcon" src="Assets/facebookIcon.png" alt="facebook"></a>
+                <a href="https://twitter.com">
+                    <img class="mediaIcon" src="Assets/twitterIcon.png" alt="twitter">
+                </a>
+            </div>
+
+        </footer>
+    </body>
+</html>
